@@ -1,6 +1,6 @@
 ## 说明
 
-使用 [Github Pages](https://pages.github.com/) + [Hexo](https://hexo.io/) 搭建，Hexo 使用 [Yilia](https://github.com/litten/hexo-theme-yilia) 主题，感谢所有作者。
+使用 [Github Pages](https://pages.github.com/) + [Hexo](https://hexo.io/) 搭建，Hexo 使用 [Yilia](https://github.com/litten/hexo-theme-yilia) 主题，相册使用 [Lawlite](http://lawlite.me/2017/04/13/Hexo-Github%E5%AE%9E%E7%8E%B0%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/) 提供的方法实现，感谢所有作者。
 
 
 
