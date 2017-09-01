@@ -71,7 +71,7 @@ def compress(choose, des_dir, src_dir, file_list):
 def compress_photo():
     '''调用压缩图片的函数
     '''
-    src_dir, des_dir = "../../photos/", "../../photos_min/"
+    src_dir, des_dir = "../../_photos/", "../../_photos_min/"
     
     if directory_exists(src_dir):
         if not directory_exists(src_dir):
@@ -95,7 +95,7 @@ def handle_photo():
     -----------
     最后将data.json文件存到博客的source/photos文件夹下
     '''
-    src_dir, des_dir = "../../photos/", "../../photos_min/"
+    src_dir, des_dir = "../../_photos/", "../../_photos_min/"
     file_list = list_img_file(src_dir)
     list_info = []
     for i in range(len(file_list)):
@@ -137,7 +137,7 @@ def cut_photo():
     ----------
     调用Graphics类中的裁剪算法，将src_dir目录下的文件进行裁剪（裁剪成正方形）
     """
-    src_dir = "../../photos/"
+    src_dir = "../../_photos/"
     if directory_exists(src_dir):
         if not directory_exists(src_dir):
             make_directory(src_dir)
